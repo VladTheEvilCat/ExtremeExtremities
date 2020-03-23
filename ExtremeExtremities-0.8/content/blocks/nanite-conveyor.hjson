@@ -1,0 +1,10 @@
+type: Conveyor
+name: Nanite Conveyor
+description: 1.5x faster than the regular brand!
+requirements: [
+  titanium/1
+  nanite-cluster/1
+]
+category: distribution
+speed: 0.5
+research: titanium-conveyor

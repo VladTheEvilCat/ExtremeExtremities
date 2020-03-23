@@ -1,0 +1,34 @@
+name: Light Flak Mech
+description: Light Flak Mech with Epic pchews
+speed: 0.8
+boostSpeed: 1
+buildPower: 2
+engineColor: "00ffff"
+flying: false
+health: 850
+mineSpeed: 4
+drillPower: 4
+itemCapacity: 45
+weaponOffsetX: 4
+weapon: {
+  name: flak-cannon
+  length: 1.5
+  reload: 20
+  alternate: true
+  inaccuracy: 7
+  shootSound: shoot
+  //lengthRand: 10.0
+  velocityRnd: 0.075
+  bullet: {
+  	type: FlakBulletType
+    explodeRange: 56
+    splashDamageRadius: 56
+    splashDamage: 48
+  	damage: 50
+  	speed: 15.0
+  	keepVelocity: true
+    hitSound: boom
+    drag: 0.0075
+  }
+  
+}

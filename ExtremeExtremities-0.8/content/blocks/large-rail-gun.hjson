@@ -1,0 +1,67 @@
+type: ItemTurret
+name: Large Rail Gun
+description: Uses Rails and Energy to accelerate a Projectile
+health: 600
+size: 3
+reload: 600
+range: 800
+recoil: 7
+inaccuracy: 1
+rotatespeed: 0.5
+shootShake: 9
+//ammoEjectBack: 3.14159
+shootEffect: blastsmoke
+shootSound: laserbig
+activeSoundVolume: 1.0
+ammo: {
+  apfsds20mm: {
+    type: BasicBulletType
+    lifetime: 2000
+    speed: 20.0
+    damage: 600
+    pearce: true
+    hitEffect: hitBulletBig
+    drawSize: 50
+    hitSound: explosionbig
+    knockback: 5
+    
+    splashDamageRadius: 8
+    splashDamage: 200
+    
+    bulletSprite: shot
+
+    collidesAir: true
+  }
+
+  heatfs20mm: {
+    type: ArtilleryBulletType
+    //lifetime: 2000
+    speed: 18.75
+    damage: 525
+
+    pearce: true
+    hitEffect: hitBulletBig
+    drawSize: 50
+    hitSound: explosionbig
+    knockback: 5
+    
+    splashDamageRadius: 64.0
+    splashDamage: 400
+    
+    bulletSprite: shot
+
+    collidesAir: false
+  }
+}
+
+targetAir: false
+targetGround: true
+requirements: [
+  copper/270
+  titanium/90
+  graphite/300
+  silicon/450
+  nanite-cluster/90
+]
+category: turret
+research: medium-rail-gun

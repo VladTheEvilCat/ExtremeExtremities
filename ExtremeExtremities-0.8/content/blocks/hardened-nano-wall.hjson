@@ -1,0 +1,13 @@
+name: Hardened Nano Wall
+description: A wall made of... um... hardened.. something?
+type: Wall
+health: 12000
+size: 3
+requirements: [
+  copper/75
+  lead/750
+  graphite/75
+  titanium/100
+]
+category: defense
+research: nano-wall
