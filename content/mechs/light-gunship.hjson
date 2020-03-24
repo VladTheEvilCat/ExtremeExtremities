@@ -17,6 +17,7 @@ weapon: {
   alternate: true
   inaccuracy: 4
   shootSound: shoot
+  ejectEffect: shellEjectSmall
   //lengthRand: 20.0
   velocityRnd: 0.25
   bullet: {
