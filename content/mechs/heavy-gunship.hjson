@@ -13,10 +13,10 @@ weaponOffsetX: 0
 weapon: {
   name: small-rail-gun
   width: 0
-  reload: 128
-  alternate: false
+  reload: 120
+  alternate: true
   inaccuracy: 1
-  shots: 0.5
+  shots: 1.0
   shootSound: laser
   shootEffect: lancerLaserShootSmoke
   //lengthRand: 20.0
