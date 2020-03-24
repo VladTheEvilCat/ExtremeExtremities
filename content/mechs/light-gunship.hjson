@@ -1,0 +1,34 @@
+name: Light Gunship
+description: MINIGUNS
+speed: 1.75
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "00ffff"
+flying: true
+health: 800
+mineSpeed: 5
+drillPower: 4
+itemCapacity: 50
+weaponOffsetX: 4
+weapon: {
+  name: mini-gun
+  length: 2.5
+  reload: 4
+  alternate: true
+  inaccuracy: 4
+  shootSound: shoot
+  //lengthRand: 20.0
+  velocityRnd: 0.25
+  bullet: {
+  	type: BasicBulletType
+    splashDamageRadius: 4.0
+    splashDamage: 10
+  	damage: 15
+  	speed: 12
+  	keepVelocity: true
+    drag: 0.0075
+    hitEffect: flakExplosion
+    //hitSound: boom
+  }
+  
+}

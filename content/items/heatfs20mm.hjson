@@ -1,0 +1,16 @@
+type: material
+name: HEATFS
+description: High Velocity Ammo for the Rail Gun (High-Explosive, Anti-Tank, Fin-Stabalized)
+explosiveness: 0.1
+color: ff0a0a
+/*
+heatfs20mm : {
+    speed: 10
+    damage: 50
+    bulletWidth: 5
+    bulletHeight: 10
+    shootEffect: shootLarge
+    smokeEffect: shootLargeSmoke
+    ammoMultiplier: 1
+}
+*/

@@ -1,0 +1,44 @@
+name: Heavy Gunship
+description: RAILGUNS
+speed: 3.0
+boostSpeed: 5.0
+buildPower: 4
+engineColor: "00ffff"
+flying: true
+health: 100000
+mineSpeed: 10
+drillPower: 10
+itemCapacity: 10000
+weaponOffsetX: 4
+weapon: {
+  name: small-rail-gun
+  length: 2.5
+  reload: 15
+  alternate: true
+  inaccuracy: 1
+  shootSound: laser
+  //lengthRand: 20.0
+  velocityRnd: 0.25
+  shake: 2
+  ignoreRotation: true
+  bullet: {
+    type: BasicBulletType
+    //explodeRange: 32
+    lifetime: 120
+    speed: 20.0
+    damage: 1000
+    pearce: true
+    hitEffect: hitBulletBig
+    drawSize: 2
+    hitSound: explosionbig
+    knockback: 5
+    hitShake: 4
+    splashDamageRadius: 56
+    splashDamage: 800
+    
+    bulletSprite: shot
+
+    collidesAir: true
+  }
+  
+}

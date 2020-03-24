@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: AP Ammo Forge
+description: Produces APFSDS ammo from an Ammo Template
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes: {
+  power: 6.0
+  items: {
+    items: [
+      ammo-template/1
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/50
+  titanium/40
+  silicon/50
+]
+category: crafting
+research: ammo-factory
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: apfsds20mm/1

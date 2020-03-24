@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Ammo Factory
+description: Produces an ammo template-turn into wanted ammo using ammo forges
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 120
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 6.0
+  items: {
+    items: [
+      titanium/2
+      copper/2
+      silicon/1
+    ]
+  }
+}
+requirements: [
+  copper/60
+  titanium/20
+  silicon/50
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ammo-template/2
