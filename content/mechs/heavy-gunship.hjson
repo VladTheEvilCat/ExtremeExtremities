@@ -16,7 +16,7 @@ weapon: {
   reload: 128
   alternate: false
   inaccuracy: 1
-  shots: 1
+  shots: 0.5
   shootSound: laser
   shootEffect: lancerLaserShootSmoke
   //lengthRand: 20.0
