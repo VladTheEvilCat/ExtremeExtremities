@@ -1,4 +1,4 @@
-type: BlockStorage
+type: LiquidTank
 name: Small Liquid Tank
 description: Smaller Liquid Tank
 hasLiquids: true

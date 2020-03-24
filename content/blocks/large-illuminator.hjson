@@ -15,4 +15,4 @@ requirements: [
   silicon/4
 ]
 category: effect
-research: illuminator
+alwaysUnlocked: true
