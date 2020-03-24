@@ -1,5 +1,5 @@
-name: Hardened Nano Wall
-description: A wall made of... um... hardened.. something?
+name: Large Nano Wall
+description: A wall made of... um... something?
 type: Wall
 health: 12000
 size: 3
