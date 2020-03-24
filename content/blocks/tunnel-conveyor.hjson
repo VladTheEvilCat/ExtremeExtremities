@@ -1,0 +1,13 @@
+type: BufferedItemBridge
+name: Item Tunnel
+description: A Bridge, but Underground
+health: 40
+size: 1
+range: 32
+//transportTime: 2
+requirements: [
+  copper/5
+  lead/5
+]
+category: distribution
+research: bridge-conveyor

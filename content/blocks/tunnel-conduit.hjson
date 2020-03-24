@@ -1,0 +1,13 @@
+type: LiquidExtendingBridge
+name: Conduit Tunnel
+description: A Bridge, but Underground
+health: 40
+size: 1
+range: 32
+//transportTime: 2
+requirements: [
+  copper/5
+  lead/5
+]
+category: liquid
+research: bridge-conduit

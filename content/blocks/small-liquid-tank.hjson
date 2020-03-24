@@ -1,0 +1,17 @@
+type: BlockStorage
+name: Small Liquid Tank
+description: Smaller Liquid Tank
+hasLiquids: true
+liquidCapacity: 750
+liquidPressure: 1.25
+consumesPower: false
+outputsLiquid: true
+health: 200
+size: 2
+requirements: [
+  metaglass/10
+  copper/10
+  graphite/4
+]
+category: liquid
+research: liquid-tank

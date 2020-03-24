@@ -1,8 +1,10 @@
 name: Nano Vault
 description: Something or other, lots of storage
 type: Vault
-itemCapacity: 100000
 hasItems: true
+itemCapacity: 100000
+hasLiquids: true
+liquidCapacity: 100000
 health: 20000
 size: 3
 requirements: [

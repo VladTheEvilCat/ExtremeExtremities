@@ -1,7 +1,7 @@
 name: Light Gunship
 description: MINIGUNS
-speed: 1.75
-boostSpeed: 1.5
+speed: 1.9
+boostSpeed: 2.0
 buildPower: 2
 engineColor: "00ffff"
 flying: true
@@ -22,8 +22,8 @@ weapon: {
   bullet: {
   	type: BasicBulletType
     splashDamageRadius: 4.0
-    splashDamage: 10
-  	damage: 15
+    splashDamage: 3
+  	damage: 5
   	speed: 12
   	keepVelocity: true
     drag: 0.0075

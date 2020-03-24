@@ -1,0 +1,18 @@
+type: LightBlock
+name: Large Illuminator
+description: Bigger Illuminator, More Light
+consumesPower: true
+brightness: 1.0
+radius: 400
+health: 80
+size: 2
+consumes: {
+	power: 12
+}
+requirements: [
+  copper/4
+  graphite/8
+  silicon/4
+]
+category: effect
+research: illuminator

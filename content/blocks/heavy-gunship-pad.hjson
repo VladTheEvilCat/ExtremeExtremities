@@ -9,7 +9,7 @@ consumes: {
 category: upgrade
 research: light-gunship-pad
 requirements: [
-	titanium/20
-  silicon/40
-  graphite/50
+	titanium/80
+  silicon/70
+  graphite/100
 ]

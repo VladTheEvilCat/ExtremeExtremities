@@ -10,6 +10,6 @@ category: upgrade
 research: wraith-factory
 requirements: [
 	titanium/20
-  silicon/40
+  silicon/45
   graphite/50
 ]

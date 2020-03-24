@@ -1,6 +1,6 @@
 name: Heavy Gunship
 description: RAILGUNS
-speed: 1.0
+speed: 1.25
 boostSpeed: 1.5
 buildPower: 4
 engineColor: "00ffff"
