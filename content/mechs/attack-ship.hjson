@@ -2,17 +2,21 @@ type: mech
 name: Attack Ship
 description: maybe a Multi-weapon platform
 speed: 2.0
+maxSpeed: 5
 //boostSpeed: 5.0
 buildPower: 4
 engineColor: "00ffff"
 flying: true
 health: 1000
-mineSpeed: -1
-drillPower: -1
+mineSpeed: 2
+drillPower: 3
 itemCapacity: 100
 weaponOffsetX: 4
+weaponOffsetY: 7
+
+engineOffset: 5
 weapon: {
-  name: small-rail-gun
+  name: small-gauss-gun
   length: 2.5
   reload: 60
   alternate: true
@@ -21,20 +25,21 @@ weapon: {
   //lengthRand: 20.0
   velocityRnd: 0.25
   shake: 2
-  ignoreRotation: true
+  //ignoreRotation: true
+
   bullet: {
     type: BasicBulletType
     //explodeRange: 32
-    lifetime: 120
-    speed: 15.0
+    lifetime: 30
+    speed: 3.0
     damage: 80
     pearce: true
     hitEffect: hitBulletBig
     drawSize: 2
     hitSound: explosionbig
     knockback: 5
-    splashDamageRadius: 56
-    splashDamage: 800
+    splashDamageRadius: 24
+    splashDamage: 65
     
     bulletSprite: shot
 
