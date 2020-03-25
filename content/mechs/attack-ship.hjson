@@ -19,9 +19,9 @@ weapon: {
   name: gatling-gun
   //length: 4
   reload: 15
-  //alternate: true
+  alternate: true
   inaccuracy: 2
-  shootSound: shot
+  shootSound: shoot
   //lengthRand: 20.0
   //velocityRnd: 0.2
   //ignoreRotation: true
