@@ -16,12 +16,12 @@ weaponOffsetY: 10
 
 engineOffset: 5
 weapon: {
-  name: bomber
+  name: gatling-gun
   //length: 4
-  reload: 30
+  reload: 15
   //alternate: true
-  //inaccuracy: 1
-  //shootSound: laser
+  inaccuracy: 2
+  shootSound: shot
   //lengthRand: 20.0
   //velocityRnd: 0.2
   //ignoreRotation: true
@@ -29,30 +29,20 @@ weapon: {
   bullet: {
     width: 4
     length: 5
-    type: BombBulletType
+    type: BasicBulletType
     //explodeRange: 32
     //lifetime: 60
-    //speed: 7.0
-    damage: 80
+    speed: 8.0
+    damage: 20
     pierce: true
-    hitEffect: hitBulletBig
+    hitEffect: hitBullet
     //drawSize: 1
     //hitSound: explosionbig
     //knockback: 5
-    keepVelocity:true
     splashDamageRadius: 24
     splashDamage: 65
-    fragBullets: 3
-    fragBullet: {
-      type: BasicBulletType
-      lifeTime: 3
-      damage: 8
-      splashDamageRadius: 10
-      splashDamage: 5
 
-    }
-
-    collidesAir: false
+    collidesAir: true
   }
   
 }
