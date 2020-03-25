@@ -35,7 +35,7 @@ weapon: {
     speed: 8.0
     damage: 20
     pierce: true
-    hitEffect: hitBullet
+    //hitEffect: hitBulletSmall
     //drawSize: 1
     //hitSound: explosionbig
     //knockback: 5
