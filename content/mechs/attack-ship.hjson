@@ -18,7 +18,7 @@ engineOffset: 5
 weapon: {
   name: small-gauss-gun
   length: 2.5
-  reload: 60
+  reload: 30
   alternate: true
   inaccuracy: 1
   shootSound: laser
