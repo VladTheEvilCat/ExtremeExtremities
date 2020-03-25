@@ -12,7 +12,7 @@ mineSpeed: 2
 drillPower: 3
 itemCapacity: 100
 weaponOffsetX: 4
-weaponOffsetY: 7
+weaponOffsetY: 10
 
 engineOffset: 5
 weapon: {
@@ -24,14 +24,15 @@ weapon: {
   shootSound: laser
   //lengthRand: 20.0
   velocityRnd: 0.25
-  shake: 2
   //ignoreRotation: true
 
   bullet: {
+    width: 4
+    length: 5
     type: BasicBulletType
     //explodeRange: 32
-    lifetime: 30
-    speed: 3.0
+    lifetime: 60
+    speed: 5.0
     damage: 80
     pearce: true
     hitEffect: hitBulletBig
