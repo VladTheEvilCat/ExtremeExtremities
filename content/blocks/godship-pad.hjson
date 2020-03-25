@@ -4,7 +4,7 @@ type: MechPad
 mech: godship
 size: 2
 consumes: {
-  power: 1000
+  power: 10000
 }
 category: upgrade
 research: light-gunship-pad

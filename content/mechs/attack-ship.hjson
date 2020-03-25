@@ -1,0 +1,44 @@
+type: mech
+name: Attack Ship
+description: maybe a Multi-weapon platform
+speed: 2.0
+//boostSpeed: 5.0
+buildPower: 4
+engineColor: "00ffff"
+flying: true
+health: 1000
+mineSpeed: -1
+drillPower: -1
+itemCapacity: 100
+weaponOffsetX: 4
+weapon: {
+  name: small-rail-gun
+  length: 2.5
+  reload: 60
+  alternate: true
+  inaccuracy: 1
+  shootSound: laser
+  //lengthRand: 20.0
+  velocityRnd: 0.25
+  shake: 2
+  ignoreRotation: true
+  bullet: {
+    type: BasicBulletType
+    //explodeRange: 32
+    lifetime: 120
+    speed: 15.0
+    damage: 80
+    pearce: true
+    hitEffect: hitBulletBig
+    drawSize: 2
+    hitSound: explosionbig
+    knockback: 5
+    splashDamageRadius: 56
+    splashDamage: 800
+    
+    bulletSprite: shot
+
+    collidesAir: true
+  }
+  
+}

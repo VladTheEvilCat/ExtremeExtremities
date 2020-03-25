@@ -5,8 +5,8 @@ size: 3
 hasPower: true
 hasItems: true
 itemDuration: 60
-powerProduction: 5.0
-powerCapacity: 10
+powerProduction: 300
+powerCapacity: 300
 consumes: {
   items: {
     items: [
@@ -22,4 +22,4 @@ requirements: [
 ]
 category: power
 research: nanite-factory
-outputItem: nanite-cluster/1
+//outputItem: nanite-cluster/1
