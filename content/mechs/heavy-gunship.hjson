@@ -30,7 +30,7 @@ weapon: {
     lifetime: 120
     speed: 10.0
     damage: 75
-    pearce: true
+    pierce: true
     hitEffect: hitBulletBig
     drawSize: 2
     hitSound: explosionbig

@@ -1,4 +1,4 @@
-type: ItemTurret
+type: ArtilleryTurret
 name: Large Rail Gun
 description: Uses Rails and Energy to accelerate a Projectile
 health: 600
