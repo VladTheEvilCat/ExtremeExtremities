@@ -22,14 +22,14 @@ weapon: {
   velocityRnd: 0.075
   bullet: {
     type: FlakBulletType
-    explodeRange: 40
-    splashDamageRadius: 40
+    explodeRange: 16
+    splashDamageRadius: 16
     splashDamage: 20
     damage: 25
     speed: 15.0
     keepVelocity: true
-    hitSound: boom
-    drag: 0.0075
+    hitSound: bang
+    //drag: 0.0075
   }
   
 }
