@@ -32,17 +32,15 @@ weapon: {
     type: BasicBulletType
     //explodeRange: 32
     lifetime: 60
-    speed: 5.0
+    speed: 6.0
     damage: 80
     pearce: true
     hitEffect: hitBulletBig
-    drawSize: 2
+    drawSize: 1
     hitSound: explosionbig
     knockback: 5
     splashDamageRadius: 24
     splashDamage: 65
-    
-    bulletSprite: shot
 
     collidesAir: true
   }
