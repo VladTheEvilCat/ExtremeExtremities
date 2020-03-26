@@ -1,0 +1,26 @@
+type: Drill
+name: Small Drill
+description: Smallest Drill, mega basic.
+size: 1
+tier: 2
+drillTime: 240
+warmupSpeed: 0.05
+liquidBoostIntensity: 4.0
+rotateSpeed: 1
+
+liquidCapacity: 1
+
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+  
+}
+requirements: [
+  copper/5
+]
+category: production
+alwaysUnlocked: true
