@@ -1,5 +1,5 @@
 type: LiquidTank
-name: Small Liquid Tank
+name: Small Fluid Tank
 description: Smaller Liquid Tank
 hasLiquids: true
 liquidCapacity: 750

@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: Separator
 name: Particle Refinery
 description: Separates materials out of things like sand, 
 liquidCapacity: 50

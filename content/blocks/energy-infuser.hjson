@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Energy Intractor
-description: Charges nanite clusters into MESUs
+name: Energy Infuser
+description: Special type of charger for the nanite-based MESU
 size: 2
 hasPower: true
 hasItems: true
@@ -15,7 +15,7 @@ power: 5.0
 }
 requirements: [
   copper/20
-  lead/20
+  titanium/30
   silicon/10
   nanite-cluster/5
 ]
