@@ -1,6 +1,6 @@
 type: Separator
-name: Particle Refinery
-description: Separates materials out of things like sand, 
+name: Particle Extractor
+description: Separates materials out of things like sand
 liquidCapacity: 50
 size: 3
 hasPower: true
@@ -10,7 +10,7 @@ itemCapacity: 250
 craftTime: 450
 updateEffect: smeltsmoke
 consumes: {
-  power: 10.0
+  power: 100.0
   items: {
     items: [
       sand/50
@@ -30,14 +30,12 @@ requirements: [
   silicon/10
 ]
 category: crafting
-research: alloy-smelter
-idleSound: respawning
-idleSoundVolume: 0.5
-activeSound:drill
-outputItems: [
+research: Separator
+activeSound: machine
+results: [
     copper/10
     lead/7
-    silicon/15
+    //silicon/15
     titanium/1
     coal/8
   ]
