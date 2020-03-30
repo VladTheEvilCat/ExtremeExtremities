@@ -1,6 +1,0 @@
-type: material
-name: MESU
-description: An interesting item that is able to be charged with energy, to later be extracted. Like coal, but artificial.
-hardness: 3
-cost: 3
-color: ffffff

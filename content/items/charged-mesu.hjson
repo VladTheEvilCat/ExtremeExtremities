@@ -1,0 +1,5 @@
+type: material
+name: MESU
+description: Modular Energy Storage Unit, a battery, but as an item.
+//cost: 3
+color: 0000aa

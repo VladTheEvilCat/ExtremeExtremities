@@ -30,7 +30,7 @@ requirements: [
   silicon/10
 ]
 category: crafting
-research: Separator
+research: separator
 activeSound: machine
 results: [
     copper/10

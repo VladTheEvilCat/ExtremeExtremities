@@ -1,0 +1,5 @@
+type: material
+name: Discharged MESU
+description: A MESU, but with no energy
+//cost: 3
+color: aa0000
