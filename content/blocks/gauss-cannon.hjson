@@ -1,16 +1,17 @@
-type: ItemTurret
+type: PowerTurret
 name: Gauss Cannon
 description: Uses coils & magnetism to accelerate a projectile.
 health: 2500
 size: 1
+//expanded: true
 reload: 60
 range: 250
 ammoUseEffect: shellEjectSmall
 inaccuracy: 2
 rotatespeed: 12
 maxAmmo: 10
-
-ammo: {
+powerUse: 100
+shootType: {
 	apfsds20mm: {
     type: BasicBulletType
     lifetime: 1000
