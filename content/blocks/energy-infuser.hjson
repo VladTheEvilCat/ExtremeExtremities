@@ -9,7 +9,7 @@ consumes: {
 power: 5.0
   items: {
     items: [
-      nanite-cluster/1
+      discharged-mesu/1
     ]
   }
 }
