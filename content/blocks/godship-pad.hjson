@@ -7,7 +7,6 @@ consumes: {
   power: 10000
 }
 category: upgrade
-research: attack-gunship-pad
 requirements: [
 	titanium/100000
   silicon/20000
