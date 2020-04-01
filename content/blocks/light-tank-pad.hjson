@@ -4,10 +4,10 @@ type: MechPad
 mech: light-tank
 size: 2
 consumes: {
-  power: 1.0
+  power: 1.5
 }
 category: upgrade
-research: light-gunship
+research: light-gunship-pad
 requirements: [
 	titanium/20
   silicon/40

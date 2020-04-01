@@ -7,7 +7,7 @@ consumes: {
   power: 1.0
 }
 category: upgrade
-research: wraith-factory
+research: alpha-mech-pad
 requirements: [
 	titanium/20
   silicon/45
