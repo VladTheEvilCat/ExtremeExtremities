@@ -6,7 +6,7 @@ hasPower: true
 hasItems: true
 itemDuration: 60
 powerProduction: 5.0
-powerCapacity: 300
+powerCapacity: 1200
 consumes: {
   items: {
     items: [
@@ -17,7 +17,7 @@ consumes: {
 requirements: [
   copper/20
   titanium/30
-  silicon/10
+  silicon/20
   nanite-cluster/5
 ]
 category: power
