@@ -1,0 +1,15 @@
+name: Light Tank Pad
+description: Transform into a Light Tank with two 20mm cannons
+type: MechPad
+mech: light-tank
+size: 2
+consumes: {
+  power: 1.0
+}
+category: upgrade
+research: light-gunship
+requirements: [
+	titanium/20
+  silicon/40
+  graphite/50
+]

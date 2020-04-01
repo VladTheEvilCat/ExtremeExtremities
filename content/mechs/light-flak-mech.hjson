@@ -16,16 +16,16 @@ weapon: {
   length: 1.5
   reload: 20
   alternate: true
-  inaccuracy: 7
+  inaccuracy: 6
   shootSound: shoot
   //lengthRand: 10.0
   velocityRnd: 0.075
   bullet: {
     type: FlakBulletType
-    explodeRange: 16
-    splashDamageRadius: 16
-    splashDamage: 20
-    damage: 25
+    //explodeRange: 24
+    splashDamageRadius: 30
+    splashDamage: 45
+    damage: 15
     speed: 15.0
     keepVelocity: true
     hitSound: bang

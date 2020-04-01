@@ -25,7 +25,7 @@ weapon: {
     splashDamageRadius: 4.0
     splashDamage: 3
   	damage: 5
-    pierce: true
+    //pierce: true
   	speed: 12
   	keepVelocity: true
     drag: 0.0075

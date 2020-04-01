@@ -1,0 +1,45 @@
+type: mech
+description: Light, Fast armored ground-vehicle
+speed: 0.8
+maxSpeed: 1.0
+mass: 1.5
+buildPower: 4
+engineColor: "00ffff"
+flying: false
+health: 1000
+mineSpeed: 7
+drillPower: 7
+itemCapacity: 55
+//weaponOffsetY: 4
+weapon: {
+  name: 20mmCannon
+  width: 2
+  reload: 40
+  alternate: true
+  inaccuracy: 1
+  shots: 1.0
+  shootSound: shoot
+  velocityRnd: 0.05
+  ejectEffect: shellEjectSmall
+  bullet: {
+    type: BasicBulletType
+    lifetime: 120
+    speed: 8.0
+    drag: 0.005
+    keepVelocity: true
+    damage: 15
+
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitSound: shootSnap
+    hitEffect: hitBulletSmall
+
+    splashDamageRadius: 8
+    splashDamage: 8
+    
+    bulletSprite: shot
+
+    collidesAir: true
+  }
+  
+}
