@@ -23,6 +23,7 @@ weapon: {
   bullet: {
   	type: HealBulletType
     healPercent: 5
+    speed: 7.5
   }
   
 }
