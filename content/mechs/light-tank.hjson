@@ -1,7 +1,7 @@
 type: mech
 description: Light, Fast armored ground-vehicle
 speed: 0.8
-maxSpeed: 1.0
+boostSpeed: 1.0
 mass: 1.5
 buildPower: 4
 engineColor: "00ffff"
@@ -9,12 +9,12 @@ flying: false
 health: 1000
 mineSpeed: 7
 drillPower: 7
-itemCapacity: 55
+itemCapacity: 50
 //weaponOffsetY: 4
 weapon: {
   name: 20mmCannon
   width: 2
-  reload: 40
+  reload: 20
   alternate: true
   inaccuracy: 1
   shots: 1.0
@@ -31,7 +31,7 @@ weapon: {
 
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    hitSound: shootSnap
+    hitSound: explosion
     hitEffect: hitBulletSmall
 
     splashDamageRadius: 8

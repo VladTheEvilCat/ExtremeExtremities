@@ -1,0 +1,28 @@
+name: Light Repair Ship
+description: REPAIR-MINIGUNS! Also has more room for items due to a lack of physical ammo storage!
+speed: 2.0
+//boostSpeed: 2.0
+engineColor: "55ff55"
+flying: true
+health: 400
+buildPower: 3
+mineSpeed: 6
+drillPower: 4
+itemCapacity: 100
+weaponOffsetX: 4
+canHeal: true
+weapon: {
+  name: repair-gun
+  length: 2.5
+  reload: 4
+  alternate: true
+  inaccuracy: 2
+  //shootSound: pew
+  //lengthRand: 20.0
+  velocityRnd: 0.25
+  bullet: {
+  	type: HealBulletType
+    healPercent: 5
+  }
+  
+}

@@ -1,0 +1,15 @@
+name: Light Repair Ship Pad
+description: Transform into a Repairship with repairing miniguns
+type: MechPad
+mech: light-repair-ship
+size: 2
+consumes: {
+  power: 40
+}
+category: upgrade
+research: light-gunship-pad
+requirements: [
+	titanium/80
+  silicon/70
+  graphite/100
+]
