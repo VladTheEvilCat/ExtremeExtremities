@@ -1,0 +1,37 @@
+type: mech
+name: Medium Defense Mech
+description: Kinda slow, but built for defense. Includes 2 High-Velocity 30mm Cannons
+speed: 0.5
+boostSpeed: 1
+//buildPower: 2
+engineColor: "750505"
+flying: false
+health: 1000
+mineSpeed: -1
+drillPower: 7
+itemCapacity: 30
+//weaponOffsetY: 7
+weapon: {
+  name: gatling-cannon-equip
+  //width: 12
+  length: 7
+  reload: 30
+  alternate: true
+  inaccuracy: 3
+  shootSound: "med-gunshot"
+  //lengthRand: 10.0
+  velocityRnd: 0.05
+  bullet: {
+    type: BasicBulletType
+    //explodeRange: 24
+    splashDamageRadius: 8
+    splashDamage: 30
+    pierce: true
+    damage: 33
+    speed: 15.0
+    keepVelocity: true
+    hitSound: bang
+    //drag: 0.0075
+  }
+  
+}

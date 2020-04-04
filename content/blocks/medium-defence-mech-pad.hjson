@@ -1,0 +1,15 @@
+name: Medium Defense Mech Pad
+description: Transform into a Mesium Defense Mech with two High Velocity 30mm cannons
+type: MechPad
+mech: medium-defense-mech
+size: 2
+consumes: {
+  power: 2.0
+}
+category: upgrade
+research: light-flak-mech-pad
+requirements: [
+	titanium/20
+  silicon/40
+  graphite/50
+]
