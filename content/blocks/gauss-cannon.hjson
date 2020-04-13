@@ -15,24 +15,46 @@ powerCapacity: 1000
 chargeTime: 40
 chargeMaxDelay: 5
 powerUse: 10
-shootType: {
-  type: BasicBulletType
-  lifetime: 120
-  speed: 12.0
-  damage: 100
-  pearce: true
-  hitEffect: hitBulletBig
-  drawSize: 20
-  drag: 0.005
-  knockback: 2
-  
-  splashDamageRadius: 0.5
-  splashDamage: 5
- 	
-  bulletSprite: shot
+ammo: {
+	apds20mm: {
+		type: BasicBulletType
+		lifetime: 120
+		speed: 12.0
+		damage: 100
+		pearce: true
+		hitEffect: hitBulletBig
+		drawSize: 20
+		drag: 0.005
+		knockback: 2
 
-  collidesAir: true
+		splashDamageRadius: 0.5
+		splashDamage: 5
+
+		bulletSprite: shot
+
+		collidesAir: true
   }
+
+  he20mm: {
+    type: BasicBulletType
+    lifetime: 120
+    speed: 11.9
+    damage: 40
+
+    pearce: true
+    hitEffect: hitBulletBig
+    drawSize: 40
+    hitSound: explosionbig
+    knockback: 5
+    
+    splashDamageRadius: 32.0
+    splashDamage: 90
+    
+    bulletSprite: shot
+
+    collidesAir: true
+  }
+}
 
 requirements: [
   copper/50
