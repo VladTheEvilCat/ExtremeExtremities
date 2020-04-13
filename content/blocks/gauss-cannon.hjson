@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 name: Gauss Cannon
 description: Uses coils & magnetism to accelerate a projectile.
 health: 2500
@@ -7,53 +7,32 @@ size: 1
 reload: 60
 range: 250
 ammoUseEffect: shellEjectSmall
-inaccuracy: 2
-rotatespeed: 12
+inaccuracy: 1
+rotatespeed: 10
 maxAmmo: 10
-powerUse: 100
+hasPower: true
+powerCapacity: 1000
+chargeTime: 40
+chargeMaxDelay: 5
+powerUse: 10
 shootType: {
-	apfsds20mm: {
-    type: BasicBulletType
-    lifetime: 1000
-    speed: 12.0
-    damage: 100
-    pearce: true
-    hitEffect: hitBulletBig
-    drawSize: 20
-    drag: 0.005
-    knockback: 2
-    
-    splashDamageRadius: 0.5
-    splashDamage: 5
-   	
-    bulletSprite: shot
+  type: BasicBulletType
+  lifetime: 120
+  speed: 12.0
+  damage: 100
+  pearce: true
+  hitEffect: hitBulletBig
+  drawSize: 20
+  drag: 0.005
+  knockback: 2
+  
+  splashDamageRadius: 0.5
+  splashDamage: 5
+ 	
+  bulletSprite: shot
 
-    collidesAir: true
+  collidesAir: true
   }
-
-  heatfs20mm: {
-    type: BasicBulletType
-    lifetime: 1000
-    speed: 11.9
-    damage: 100
-    splashDamage: 20
-    splashDamageRadius: 2
-
-    pearce: true
-    hitEffect: hitBulletBig
-    drawSize: 20
-    drag: 0.0075
-    hitSound: explosion
-    knockback: 3
-    
-    splashDamageRadius: 3.0
-    splashDamage: 10
-    
-    bulletSprite: shot
-
-    collidesAir: true
-  }
-}
 
 requirements: [
   copper/50
