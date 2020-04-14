@@ -1,7 +1,10 @@
 type: Battery
 name: Large Solid State Battery
 description: Uses solid materials instead of chemicals to store power, like a capacitor, but different. And even Bigger!
-powerBuffered: 450000
+
+consumes: {
+	powerBuffered: 450000
+}
 health: 720
 size: 2
 requirements: [

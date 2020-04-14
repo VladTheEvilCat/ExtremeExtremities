@@ -1,7 +1,10 @@
 type: Battery
 name: Medium Solid State Battery
 description: Uses solid materials instead of chemicals to store power, like a capacitor, but different. And bigger!
-powerBuffered: 200000
+
+consumes: {
+	powerBuffered: 200000
+}
 health: 320
 size: 2
 requirements: [
