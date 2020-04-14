@@ -16,7 +16,7 @@ chargeTime: 40
 chargeMaxDelay: 5
 powerUse: 10
 ammo: {
-	apds20mm: {
+	apfsds20mm: {
 		type: BasicBulletType
 		lifetime: 120
 		speed: 12.0
@@ -35,7 +35,7 @@ ammo: {
 		collidesAir: true
   }
 
-  he20mm: {
+  heatfs20mm: {
     type: BasicBulletType
     lifetime: 120
     speed: 11.9
