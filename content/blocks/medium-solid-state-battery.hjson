@@ -1,0 +1,13 @@
+type: Battery
+name: Medium Solid State Battery
+description: Uses solid materials instead of chemicals to store power, like a capacitor, but different. And bigger!
+powerBuffered: 200000
+health: 320
+size: 2
+requirements: [
+  copper/16
+  nanite-cluster/16
+  silicon/16
+]
+category: power
+reserch: solid-state-battery

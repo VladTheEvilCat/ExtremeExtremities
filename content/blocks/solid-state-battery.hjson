@@ -1,0 +1,13 @@
+type: Battery
+name: Solid State Battery
+description: Uses solid materials instead of chemicals to store power, like a capacitor, but different.
+powerBuffered: 50000
+health: 80
+size: 1
+requirements: [
+  copper/4
+  nanite-cluster/4
+  silicon/4
+]
+category: power
+reserch: nanite-factory

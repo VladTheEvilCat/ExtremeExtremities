@@ -1,0 +1,15 @@
+type: Battery
+name: Quantum State Battery
+description: It's like, kinda in this dimention? I think it's also in another dimention where it's connected to a ****-load of other batteries. Also, according to my calculations, I think it stores about pi billion energy?
+health: 1000
+buildCostMultiplier: 2
+powerBuffered: 3141592653
+
+size: 3
+requirements: [
+  titanium/512
+  nanite-cluster/256
+  silicon/128
+]
+category: power
+reserch: giant-solid-state-battery

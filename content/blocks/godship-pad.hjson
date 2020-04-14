@@ -1,10 +1,11 @@
 name: Godship Pad
-description: Transform into a Heavy Gunship with crazy Railguns
+description: Transform into a Heavy Gunship with crazy Railguns. Also, it originaly took up to 7.8k seconds to build (just over 2 hours!) But now it should only take about 4 minutes.
 type: MechPad
 mech: godship
+buildCostMultiplier: 32
 size: 2
 consumes: {
-  power: 10000
+  power: 1000
 }
 category: upgrade
 requirements: [

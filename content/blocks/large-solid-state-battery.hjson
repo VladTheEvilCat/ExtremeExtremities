@@ -1,0 +1,13 @@
+type: Battery
+name: Large Solid State Battery
+description: Uses solid materials instead of chemicals to store power, like a capacitor, but different. And even Bigger!
+powerBuffered: 450000
+health: 720
+size: 2
+requirements: [
+  copper/36
+  nanite-cluster/36
+  silicon/36
+]
+category: power
+reserch: medium-solid-state-battery
